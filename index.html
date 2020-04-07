@@ -1,11 +1,46 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Page Title</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Sang" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <title>Digiprojekti</title>
   </head>
 
   <body>
-    <h1>This is a Heading</h1>
-    <p>This is a paragraph.</p>
+      <container>
+    <h1>KYSSÄRIT</h1>
+
+    <form>
+      <p>- Mitä palvelua/alustaa käytätte etäopiskelussa (esim. Adobe Connect, Teams, Zoom)</p>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Adobe connect</label><br />
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female"></label><br />
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">Other</label>
+
+      <br />
+
+      <p>Please select your age:</p>
+      <input type="radio" id="age1" name="age" value="30" />
+      <label for="age1">0 - 30</label><br />
+      <input type="radio" id="age2" name="age" value="60" />
+      <label for="age2">31 - 60</label><br />
+      <input type="radio" id="age3" name="age" value="100" />
+      <label for="age3">61 - 100</label><br /><br />
+      <input type="submit" value="Submit" />
+    </container>
+    </form>
   </body>
 </html>
