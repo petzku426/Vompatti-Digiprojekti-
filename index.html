@@ -18,21 +18,42 @@
   </head>
 
   <body>
-      <container>
-    <h1>KYSSÄRIT</h1>
+      <div class="container">
+    <h1>KYSSÄRIT</h1><br />
 
     <form>
-      <p>- Mitä palvelua/alustaa käytätte etäopiskelussa (esim. Adobe Connect, Teams, Zoom)</p>
-      <input type="radio" id="male" name="gender" value="male" />
+
+        <h4>Oletko käyttänyt etäopiskelu alustaa?</h4>
+        <input type="radio" />
+        <label>Kyllä</label><br />
+        <input type="radio" />
+        <label>En</label>
+
+    <br /> <br />
+      <h4>Mitä palvelua/alustaa käytätte etäopiskelussa (esim. Adobe Connect, Teams, Zoom)</h4>
+      <input type="checkbox" id="male" name="gender" value="male" />
       <label for="male">Adobe connect</label><br />
-      <input type="radio" id="female" name="gender" value="female" />
-      <label for="female"></label><br />
-      <input type="radio" id="other" name="gender" value="other" />
-      <label for="other">Other</label>
+      <input type="checkbox" id="female" name="gender" value="female" />
+      <label for="female">Teams</label><br />
+      <input type="checkbox" id="other" name="gender" value="other" />
+      <label for="other">Zoom.us</label><br />
+      <label>Muu</label>
+      <input type="textarea" />
 
-      <br />
+      <br /> <br />
 
-      <p>Please select your age:</p>
+            <p>- Mitä palvelua/alustaa käytätte etäopiskelussa (esim. Adobe Connect, Teams, Zoom)</p>
+            <input type="checkbox" id="male" name="gender" value="male" />
+            <label for="male">Adobe connect</label><br />
+            <input type="checkbox" id="female" name="gender" value="female" />
+            <label for="female">Teams</label><br />
+            <input type="checkbox" id="other" name="gender" value="other" />
+            <label for="other">Zoom.us</label>
+
+        <br /> <br />
+
+
+      <h4>Please select your age:</h4>
       <input type="radio" id="age1" name="age" value="30" />
       <label for="age1">0 - 30</label><br />
       <input type="radio" id="age2" name="age" value="60" />
@@ -40,7 +61,8 @@
       <input type="radio" id="age3" name="age" value="100" />
       <label for="age3">61 - 100</label><br /><br />
       <input type="submit" value="Submit" />
-    </container>
+
     </form>
+    </div class="container">
   </body>
 </html>
